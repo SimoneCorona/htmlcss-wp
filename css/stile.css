@@ -1,0 +1,59 @@
+/* RESET */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* COMMON */
+.mg-bt{
+    margin-bottom: 20px;
+}
+.mg-bt2{
+    margin-bottom: 10px; 
+}
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.float{
+    float: left;
+}
+.lati{
+    width: 25%;
+}
+.mid{
+    margin: 0 2%;
+    width: 46%;
+}
+.pd-bt{
+    padding-bottom: 20px;
+}
+/* CONTENT */
+.container{
+    width: 80%;
+    height: 1200px;
+    margin: 5% auto;
+}
+.rose{
+    background-color: rgb(214, 122, 206);
+    height: 100px;
+}
+.yellow{
+    background-color: rgb(230, 230, 112);
+    height: 350px;
+}
+.celeste{
+    background-color: rgb(112, 218, 218);
+    height: 80px;
+}
+.col{
+    height: 500px;
+}    
+.purple{
+    background-color: rgb(85, 46, 129);
+    height: 70px;
+}
+.blue{
+    background-color: rgb(118, 118, 236);
+}
