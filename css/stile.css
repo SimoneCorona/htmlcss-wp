@@ -4,6 +4,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+html{
+    font-family: "Monserrat", sans-serif;
+}
 /* COMMON */
 .mg-bt{
     margin-bottom: 20px;
@@ -35,6 +38,7 @@
     height: 1200px;
     margin: 5% auto;
 }
+/* HEADER and NAV */
 .logo{
     width: 150px;
     border-right: 1px solid lightgrey;
@@ -46,14 +50,36 @@ li{
 }
 a{
     text-decoration: none;
+    color: grey;
 }
-.rose{
-    background-color: rgb(214, 122, 206);
+/* BANNER */
+.layover::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
 }
-.yellow{
-    background-image: url(../img/);
-    background-color: rgb(230, 230, 112);
-    height: 350px;
+.banner{
+    background-image: url(../img/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    height: 400px;
+    border-radius: 2em;
+    overflow: hidden;
+}
+.text-banner{
+    position: absolute;
+    bottom: 2em;
+    left: 1.5em;
+    width: 60%;
+    color: white;
+}
+h2{
+    font-size: small;
 }
 .celeste{
     background-color: rgb(112, 218, 218);
