@@ -35,11 +35,23 @@
     height: 1200px;
     margin: 5% auto;
 }
+.logo{
+    width: 150px;
+    border-right: 1px solid lightgrey;
+    padding-right: 1em;  
+}
+li{
+    display: inline-block;
+    padding-right: 0.8em;
+}
+a{
+    text-decoration: none;
+}
 .rose{
     background-color: rgb(214, 122, 206);
-    height: 100px;
 }
 .yellow{
+    background-image: url(../img/);
     background-color: rgb(230, 230, 112);
     height: 350px;
 }
